@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <div class="nav">
-      <RouterLink to="/home">spacer</RouterLink>
+      <RouterLink to="/">spacer</RouterLink>
       <RouterLink to="/about">about</RouterLink>
     </div>
 <RouterView></RouterView>

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>Spacer</h1>
-    <p>sasvs</p>
+    <p>sasvsSVS</p>
   </div>
 </template>
 
