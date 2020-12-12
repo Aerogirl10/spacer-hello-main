@@ -39,6 +39,7 @@ export default {
     handleInput: debounce(function dupa() {
       axios.get(`${API}?q=${this.searchValue}&media_type=image`)
         .then((response) => {
+          console.log(response.data.collection.items);
           this.results = response.data.collection.items;
         })
         .catch((error) => {
